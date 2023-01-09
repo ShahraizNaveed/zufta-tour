@@ -1,0 +1,44 @@
+.under-breadcrumb {
+    margin: 80px 10px;
+}
+
+.form-btn {
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    background: #F49D5B;
+    border: 1px solid white;
+}
+
+.contact-heading {
+    font-weight: 700;
+}
+
+@media screen and (min-width:260px) and (max-width:760px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    .contact-container img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .contact-heading{
+        text-align: center;
+    }
+
+    .contact-container input {
+        margin-bottom: 10px;
+    }
+
+    .right-contact-section {
+        margin-bottom: 30px;
+    }
+}

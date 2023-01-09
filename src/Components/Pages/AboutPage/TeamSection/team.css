@@ -1,0 +1,39 @@
+.team-image {
+    overflow: hidden;
+
+}
+.teams-section{
+    margin: 80px 0;
+}
+.team-image img {
+    transition: all ease-in-out .3s
+}
+
+.team-item:hover .team-image img {
+    transform: scale(1.2)
+}
+
+.team-content {
+    background: #F49D5B;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s
+}
+
+.team-content h3 {
+    color: #fff
+}
+
+.team-content p {
+    color: #fff;
+    margin: 0
+}
+
+.team-item:hover .team-content {
+    width: 100%;
+    bottom: 0
+}

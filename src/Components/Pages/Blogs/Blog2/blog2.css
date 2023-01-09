@@ -1,0 +1,8 @@
+.blog2-image{
+    overflow: hidden;
+}
+
+.blog2-image img{
+    height: 550px;
+    width: 100% !important;
+}

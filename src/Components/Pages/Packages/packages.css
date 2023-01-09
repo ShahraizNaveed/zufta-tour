@@ -1,0 +1,45 @@
+.package-section {
+    margin: 80px 0;
+}
+
+.package-container{
+
+}
+
+.package-section a {
+    color: black;
+}
+
+.package-card {
+    overflow: hidden;
+    transition: all ease 0.4s;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.package-card:hover img {
+    transform: scale(1.1);
+    transition: all ease 0.4s;
+}
+
+.package-card-btn {
+    background: transparent;
+    border: 1px solid #F49D5B;
+    color: #F49D5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.package-card-btn:hover {
+    background: #F49D5B;
+}
+
+@media only screen and (min-width: 280px) and (max-width:525px) {
+    .package-card{
+        margin-bottom: 20px;
+    }
+}

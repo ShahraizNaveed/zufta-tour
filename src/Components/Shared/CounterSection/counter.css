@@ -1,0 +1,44 @@
+.counter {
+    background: linear-gradient(#20202055, #3030303e),
+        url("../../../assets/images/breadcrumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+    color: white;
+}
+
+.above-counter h4{
+    margin-bottom: 20px;
+}
+
+.above-counter h6{
+    margin-bottom: 20px;
+}
+
+.above-counter hr {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    color: #F49D5B;
+    border-bottom: 2px solid #F49D5B;
+    width: 50px;
+}
+
+.counter .icon{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.counter .number{
+    font-size: 25px;
+}
+
+.counter-column h4{
+    margin-top: 20px;
+    font-size: 28px;
+}

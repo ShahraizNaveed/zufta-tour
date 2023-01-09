@@ -1,0 +1,39 @@
+.about-section {
+    background: url(../../../assets/images/travel-person.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.about-body {
+    padding: 100px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .about-body {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-image {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-image {
+        width: 250px;
+    }
+
+    .about-body {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+.book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.book-btn-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    /* margin-top: 20px; */
+}

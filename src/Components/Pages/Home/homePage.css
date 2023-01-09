@@ -1,0 +1,134 @@
+.white-color{
+    color: white;
+}
+
+.banner-btn{
+    color: white;
+    border: 1px solid white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    transition: all ease 0.45s;
+    border-radius: 100px;
+}
+
+.banner-btn:hover{
+    background: #F49D5B;
+    border-color: #F49D5B;
+    color: white;
+}
+
+.opacity {
+    background: rgba(0, 0, 0, 0.42);
+    height: 100vh;
+}
+
+
+
+/* Slider Section  */
+
+.home-pageImage {
+    /* margin: 3 0px; */
+    margin-top: 200px;
+}
+.home-bg {
+    background: url('../../../assets/images/slider/slider7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    margin-top: -100px !important;
+}
+
+.presents{
+    color: #a3d8f1;
+    font-size: 38px;
+}
+
+.home-bg-img {
+    height: 230px;
+}
+
+
+.nav-wrapper {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    display: flex;
+    align-items: center !important;
+}
+
+
+
+/* // */
+
+
+@media only screen and (min-width: 260px) and (max-width:425px) {
+    .home-bg {
+        background: url('../../../assets/images/slider/slider7.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 80vh;
+        margin-top: -100px !important;
+    }
+
+    .opacity {
+        background: rgba(0, 0, 0, 0.533);
+        height: 80vh;
+    }
+ 
+    .presents{
+        font-size: 20px;
+    }
+ 
+    .navbar img {
+        width: 120px;
+    }
+
+    .banner-btn{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (min-width: 426px) and (max-width:584px) {
+    .home-bg {
+        background: url('../../../assets/images/slider/slider7.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 90vh;
+        margin-top: -100px !important;
+    }
+
+    .opacity {
+        background: rgba(0, 0, 0, 0.42);
+        height: 90vh;
+    }
+
+  .presents{
+    font-size: 32px;
+  }
+
+    .navbar img {
+        width: 120px;
+    }
+
+    .home-pageImage>img {
+        height: 150px !important;
+    }
+}
+
+@media only screen and (min-width: 585px) and (max-width:768px) {
+ 
+
+    .home-bg {
+        background: url('../../../assets/images/slider/slider7.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+        margin-top: -100px !important;
+    }
+
+    .opacity {
+        background: rgba(0, 0, 0, 0.42);
+        height: 100vh;
+    }
+}
+

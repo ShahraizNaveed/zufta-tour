@@ -1,0 +1,11 @@
+.plan-section{
+    margin: 80px 0;
+    font-family: robo;
+}
+
+.plan-right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
