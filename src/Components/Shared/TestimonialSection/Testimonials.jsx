@@ -6,7 +6,7 @@ import { Avatar } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 
 const PreviousBtn = (props) => {
-    console.log(props);
+    // console.log(props);
     const { className, onClick } = props;
     return (
         <div className={className} onClick={onClick}>

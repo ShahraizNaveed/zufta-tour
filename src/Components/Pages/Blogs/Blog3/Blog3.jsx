@@ -34,7 +34,7 @@ const Blog3 = () => {
                                                     <div className="blog-date">
                                                         <p><i className="fa fa-clock-o"></i> Posted On : 12 May</p>
                                                     </div>
-                                                    <h3><a href="blog-detail-fw.html">{value.blogTitle}</a>
+                                                    <h3><a href="#">{value.blogTitle}</a>
                                                     </h3>
                                                     <p>{value.description}.</p>
                                                     <div className="blog-author">

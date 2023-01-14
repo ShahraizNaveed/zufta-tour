@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Blog from "./Blog";
 import '../Home/deals.css'
+import { NavLink } from "react-router-dom";
 
 const BlogSlider = () => {
     const [slideIndex, setSlideIndex] = useState(0);
@@ -76,11 +77,11 @@ const BlogSlider = () => {
                                                         <div className="blog-date">
                                                             <p><i className="fa fa-clock-o"></i> Posted On : 12 May</p>
                                                         </div>
-                                                        <h3><a href="blog-detail.html">{img.blogTitle}</a></h3>
+                                                        <h3><NavLink to="/blogs">{img.blogTitle}</NavLink></h3>
                                                         <p>{img.description}</p>
                                                         <div className="blog-author">
                                                             <div className="pull-left">
-                                                                <p><a href="#"><i className="fa fa-user-o" aria-hidden="true"></i>{img.author}</a>
+                                                                <p><NavLink to="/blogs"><i className="fa fa-user-o" aria-hidden="true"></i>{img.author}</NavLink>
                                                                 </p>
                                                             </div>
                                                             <div className="pull-right blog-date-icon">

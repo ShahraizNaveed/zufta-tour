@@ -45,19 +45,19 @@ function Footer() {
                             </div>
 
                             
-                            <Link to="/about">  <h5>About The Artist</h5></Link>
-                            <Link to="/journey">  <h5>Inspirational Stories</h5></Link>
+                            <Link to="/about">  <h5>About Us</h5></Link>
+                            <Link to="/destinations">  <h5>Destinations</h5></Link>
                         </Col>
 
                         <Col md={3}>
-                            <Link to="/requests"> <h5>Inspirational Requests</h5></Link>
-                            <Link to="">  <h5>Merchandising</h5></Link>
-                            <Link to="/gallery">  <h5>Inspirational Gallery</h5></Link>
+                            <Link to="/blogs"> <h5>Blogs</h5></Link>
+                            <Link to="/packages">  <h5>Packages</h5></Link>
+                            <Link to="/">  <h5>Deals</h5></Link>
                         </Col>
 
                         <Col md={3}>
                             {/* <h5>Customer Support</h5> */}
-                            <h5>FAQs</h5>
+                            <Link to='/contact'><h5>FAQs</h5></Link>
                             <h5>Terms & conditions</h5>
                         </Col>
 

@@ -11,8 +11,8 @@
     color: #F49D5B;
     border-radius: 50%;
     position: fixed;
-    bottom: 4rem;
-    right: 4rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
     z-index: 999;
     display: flex;
     justify-content: center;

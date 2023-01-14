@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
     text-align: center;
@@ -32,7 +32,6 @@
 }
 
 .search.active {
-    /* height: 12vh; */
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -79,4 +78,4 @@ nav.navbar .navbar-nav a.nav-item.nav-item.active{
 
 
 
-  
+   */

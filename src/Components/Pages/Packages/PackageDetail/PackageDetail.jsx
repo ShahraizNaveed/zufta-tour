@@ -9,7 +9,7 @@ import {CiSearch} from 'react-icons/ci'
 import TopDeals from '../../../Shared/TopDeals/TopDeals'
 
 const PackageDetail = () => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
 
     const [searchTerm, setSearchTerm] = useState("");
 

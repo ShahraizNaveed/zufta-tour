@@ -4,9 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import './navbar.css'
-
+import { NavLink } from 'react-router-dom';
 import Logo from '../../../assets/images/zufta-logo.png'
-import { NavDropdown } from 'react-bootstrap';
+import { NavDropdown, } from 'react-bootstrap';
 
 
 const Navigation = () => {
@@ -27,10 +27,10 @@ const Navigation = () => {
 
     return (
         <section className="search">
-            <Navbar expand="lg"  variant='dark' className={navbar ? 'navbar active' : 'navbar sticky-top'}>
+            <Navbar expand="lg" variant='dark' className={navbar ? 'navbar active' : 'navbar sticky-top'}>
                 <Container>
                     <Navbar.Brand className={activeLink === 'home' ? 'active' : ''} onClick={() => { onUpdateActiveLink('home') }}> <Link to="/"><img src={Logo} className='img-fluid' alt="" /></Link></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link className={activeLink === 'home' ? 'active nav-item' : 'nav-item'} onClick={() => { onUpdateActiveLink('home') }}><Link to='/'>Home</Link></Nav.Link>

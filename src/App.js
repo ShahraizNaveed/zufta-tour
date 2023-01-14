@@ -12,11 +12,11 @@ import HomePage from './Components/Pages/Home/HomePage';
 import Footer from './Components/Shared/Footer/Footer';
 import Packages from './Components/Pages/Packages/Packages';
 import PackageDetail from './Components/Pages/Packages/PackageDetail/PackageDetail';
-import { useState } from 'react';
 import Blog3 from './Components/Pages/Blogs/Blog3/Blog3';
 import Blog2 from './Components/Pages/Blogs/Blog2/Blog2';
 import ScrollToTop from './Components/Shared/ScrollToTop/ScrollToTop';
 import TourDetail from './Components/Pages/Packages/TourDetail/TourDetail';
+import Hello from './Components/Shared/Navbar/Hello';
 
 function App() {
   // const [loader, setLoader] = useState(true);
@@ -33,7 +33,9 @@ function App() {
     // !loader && (
       <Router>
         <div className="App">
-          <Navbar />
+          {/* <Navbar /> */}
+          <Hello />
+
           <Routes>
             <Route exact path='/' element={<HomePage />} />
             <Route exact path='/All-packages' element={<Packages />} />
